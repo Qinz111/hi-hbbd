@@ -1,9 +1,9 @@
-const contentLetterSrart_actived = "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé." //Lời mở đầu cho bức thư
-const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương." //Nội dung của bức thư
+const contentLetterSrart_actived = "All the best on your special day!" //Lời mở đầu cho bức thư
+const mainContentLetter = "On this special day, I wish you immense joy, love, and all the happiness in the world. May you find yourself in the company of someone who truly appreciates and cherishes you <3" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
-imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
+imgStart.src = "./img/icon-quynh.png";// Khứa cute mở đầu
 
 // Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");

@@ -62,10 +62,10 @@ body {
 }
 
 .myAI {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    height: 100px;
+position: absolute;
+    bottom: -32px;
+    right: -21px;
+    height: 346px;
 }
 
 .sticker {
@@ -79,6 +79,24 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
     border-radius: 10px;
     animation: animateStartLetter 1s ease-in-out infinite alternate;
+}
+
+.nq {
+    position: absolute;
+    bottom: -39px;
+    width: 417px;
+    animation: animateBalloon 1s ease-in-out infinite alternate;
+    z-index: 5;
+    left: -5%;
+}
+
+.nq2 {
+position: absolute;
+    bottom: -190px;
+    width: 336px;
+    animation: animateBalloon 1s ease-in-out infinite alternate;
+    z-index: 5;
+    right: 0%;
 }
 
 .sticker::before {
