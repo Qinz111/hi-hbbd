@@ -271,7 +271,7 @@ position: absolute;
 
 .content.actived {
     bottom: 100px;
-    width: 300px;
+    width: 375px;
     height: fit-content;
     max-height: 450px;
     margin: 0;
